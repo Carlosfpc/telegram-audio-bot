@@ -1,3 +1,4 @@
 node_modules/
 .env
-assets/sounds
+assets/sounds/*
+!assets/sounds/
