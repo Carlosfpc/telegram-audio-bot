@@ -1,0 +1,29 @@
+{
+    "name": "telegram-audio-bot",
+    "version": "1.0.0",
+    "description": "Generic Telegram bot for playing audio files",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "devserver": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Carlosfpc/telegram-audio-bot.git"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "audio",
+        "telegraf"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.2",
+        "telegraf": "^4.9.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
